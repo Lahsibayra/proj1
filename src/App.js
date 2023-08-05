@@ -17,7 +17,7 @@ import Muni from './component/muni';
 function App() {
   return (
     <div className="w-full">
-      {/* <Router>
+      <Router>
         <Routes>
           <Route path='/' exact element={<Home />}/>
           <Route path='/courses' exact element={<Courses/>}></Route>
@@ -27,10 +27,10 @@ function App() {
           <Route path='/Contact' exact element={<Contact/>}></Route>
           
         </Routes>
-      </Router> */}
+      </Router>
       {/* .................................................................................................... */}
       {/* <Form/> */}
-      <Router>
+  {/*<Router>
         <Routes>
           <Route path='table' exact element={<Table/>}></Route>
           <Route path='/' exact element={<Add/>}></Route>
@@ -39,7 +39,7 @@ function App() {
           
 
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 }
